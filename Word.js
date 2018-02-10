@@ -1,6 +1,6 @@
-//constructor function for the Word object
 function Word(word) {
     this.word = word;
+    
     //checks to see if the letter guessed is in the word, and calls the method to change the shown character if it is
     this.checkLetter = function(letter, letters) {
       var letterFound = false;

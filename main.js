@@ -11,7 +11,7 @@ for (var i=0; i<selectedWord.length; i++) {
 var guessesLeft = 5;
 makeGuess();
 
-//recursive function that gets called as long as the word has not been guessed and there are guesses left
+//function that gets called as long as the word has not been guessed and there are guesses left
 function makeGuess() {
   displayWord();
   inquirer.prompt({name: "letter", message: "Please enter a letter:"}).then(function(answer) {
